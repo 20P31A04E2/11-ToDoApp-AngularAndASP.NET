@@ -1,0 +1,191 @@
+.today-completed{
+    width:90%;
+    margin-left: 4rem;
+    font-family: lexend;
+}
+
+.todays-completed-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.task-content {
+    flex: 1;
+}
+
+.task-date {
+    flex:0;
+    white-space: nowrap; 
+}
+
+.task{
+    display: flex;
+    width: 100%;
+}
+
+.task-list {
+    width: 100%;
+}
+
+.task-item {
+    position: relative;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 6px 0px #0000001A;
+    background-color: #EDB046;
+    border-radius: 16px;
+    padding:0.3rem;
+    cursor: pointer;
+}
+
+.task-item i{
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #BA5112;
+    line-height: 0.9;
+    border-radius: 3px;
+}
+
+.overlay-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    background-color: #EDB046;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top:0.5rem;
+    cursor:default;
+}
+
+.overlay-content.show {
+    display: block;
+}
+
+.overlay-content h2, .overlay-content h3{
+    margin: 1rem 0rem 0rem 0.3rem;
+    padding: 0;
+}
+
+.overlay-content p {
+    margin:0 0 0 0.3rem;
+}
+
+.overlay-content .added-when{
+    color:#BA5112;
+}
+
+.actions {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions i{
+    margin-right: 1rem;
+}
+
+.delete {
+    display: flex;
+}
+
+.delete i {
+    margin-left: 10px;
+    color: #BA5112;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    h2,h3{
+        font-size: medium;
+    }
+
+    .today-completed{
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width:425px){
+    h2,h3{
+        font-size: small;
+    }
+
+    p,span{
+        font-size: x-small;
+    }
+
+    .today-completed{
+        margin-left:1rem;
+    }
+}
+
+
+@media (max-width:375px)
+{
+    .today-completed {
+        width: 95%;
+        font-family: lexend;
+        margin-left: 0.5rem;
+    }
+
+    h2,h3{
+        font-size: medium;
+    }
+
+    p{
+        font-size: small;
+    }
+
+    .todays-completed-task {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 20px 15px;
+    }
+
+    .task-content h2 {
+        font-size: small;
+    }
+
+    .task-date {
+        display: flex;
+        align-items: center;
+        font-size: small;
+        white-space: nowrap;
+        margin-right:1rem;
+    }
+
+    .task-list {
+        width: 100%;
+        padding-right:0;
+        margin-left:1rem;
+    }
+
+
+    .task-item {
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 16px;
+        padding: 0.3rem;
+        margin-right: 0.4rem;
+    }
+
+    .task-item i {
+        margin: 10px;
+    }
+
+    .overlay-content {
+        width: 60%;
+    }
+
+}

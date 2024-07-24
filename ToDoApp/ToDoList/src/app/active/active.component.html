@@ -1,0 +1,39 @@
+<div class="active-container">
+    <div class="today-active">
+        <div class="todays-active-task">
+            <div class="task-content">
+                <h2>Active tasks</h2>
+            </div>
+            <div class="task-date">
+                <span>{{currentDate}}</span>
+            </div>
+        </div>
+
+        <div class="task">
+            <div class="task-list">
+                <div *ngFor = "let activeTask of activeTasks" class="task-item" (click)="toggleOverlay(activeTask)" title="Click for actions">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>{{activeTask.taskName}}</p>
+                    <div class="overlay-content" [class.show]="activeTask.showOverlay" (click)="$event.stopPropagation()" title="">
+                        <h2>{{activeTask.taskName}}</h2>
+                        <p class="added-when">{{ activeTask.daysDifference }}</p>
+                        <h3>Description</h3>
+                        <p>{{activeTask.taskDescription}}</p>
+                        <div class="edit-delete">
+                            <i class="fa-regular fa-square-check" (click)="changeTaskStatus(activeTask.taskId)" title="Mark as completed"></i>
+                            <div class="actions">
+                                <i class="fa fa-edit" (click)="openAddTaskModal(activeTask)" title="Edit task"></i>
+                                <i class="fa fa-trash" (click)="deleteTask(activeTask.taskId)" title="Delete task"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="!activeTasks || activeTasks.length==0" class="error">
+                    No tasks found.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-addtask [showModal]="isModalOpen" [taskToEdit]="taskToEdit" (showModalChange)="updateModalChange($event)"></app-addtask>
+<app-spinner [isLoading]="isLoading"></app-spinner>

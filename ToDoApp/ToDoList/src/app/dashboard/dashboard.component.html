@@ -1,0 +1,39 @@
+<div class="dashboard-container">
+    <app-hero-section></app-hero-section>
+    <div class="stats-for-mobile-view">
+        <app-task-statastics></app-task-statastics>
+    </div>
+
+    <div class="today">
+        <div class="todays-task">
+            <div class="task-content">
+                <h2>All tasks</h2>
+            </div>
+            <div class="task-details">
+                <div class="task-delete">
+                    <span (click)="deleteAllTasks()" title="Delete all Tasks">Delete all</span>
+                </div>
+                <div class="task-date">
+                    <span title="Today date">{{currentDate}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="task-and-stats">
+            <div class="task-list">
+                <div *ngFor="let task of allTasks" class="task-item" [ngStyle]="getTaskItemBackgroundStyles(task)">
+                    <i [ngClass]="getTaskItemIcon(task)" [style.color]="getTaskIconColor(task)"></i>
+                    <p>{{ task.taskName }}</p>
+                </div>
+                <div *ngIf="!allTasks || allTasks.length==0" class="error">
+                    No tasks found. Please add..,
+                </div>
+            </div>
+            <div *ngIf="allTasks && allTasks.length > 0" class="stats-for-laptop-view">
+                <app-task-statastics></app-task-statastics>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-spinner [isLoading]="isLoading"></app-spinner>

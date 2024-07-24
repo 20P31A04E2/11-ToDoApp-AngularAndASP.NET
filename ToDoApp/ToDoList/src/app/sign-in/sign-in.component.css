@@ -1,0 +1,149 @@
+.signin-form-wrapper {
+    width: 100%;
+    height: 98vh;
+    background-image: url('/assets/Form-Background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-container {
+    width: 50%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    font-family: lexend;
+    padding: 2rem;
+    text-align: center;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form h1 {
+    text-align: center;
+    color: #BA5112;
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+
+form p {
+    color: black;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+input::-ms-reveal {
+     display: none; 
+}
+
+input[type="text"],
+input[type="password"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    box-shadow: 2px 2px 8px 0px #0000001A;
+    margin: 1rem 0;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password i{
+    color:#EDB046
+}
+
+
+button {
+    background-color: #EDB046;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.isSignedUp a {
+    color: #BA5112;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -10px ;
+    margin-bottom: 10px;
+    margin-left:4.5rem;
+    text-align: left;
+    display: block;
+    position: relative;
+}
+
+
+@media(max-width: 768px) {
+    .signin-container {
+        width: 75%;
+        margin:1rem;
+    }
+
+    form .form-group {
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 95%;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }  
+
+    .toggle-password {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+}
+
+@media (max-width:375px) {
+    .error {
+        color: red;
+        font-size: .9rem;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        margin-left: 1rem;
+        text-align: left;
+        display: block;
+        position: relative;
+    }
+}

@@ -1,0 +1,37 @@
+<div class="modal" [ngClass]="{'open': showModal}">
+    <div class="blur">
+        <div class="modal-content">
+            <form [formGroup]="addTaskForm" *ngIf="addTaskForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <input type="text" id="title" name="title" placeholder="Add title" formControlName="taskName" >
+                    <div
+                        *ngIf="addTaskForm.controls['taskName'].invalid &&(addTaskForm.controls['taskName'].dirty || addTaskForm.controls['taskName'].touched || isFormValid)">
+                        <div *ngIf="addTaskForm.controls['taskName'].errors?.['required']" class="error">
+                            Task title is required.
+                        </div>
+                        <div *ngIf="addTaskForm.controls['taskName'].errors?.['maxlength']" class="error">
+                            Max limit 100 characters.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="description" name="description" placeholder="Add description" rows="6"
+                        formControlName="taskDescription"></textarea>
+                    <div
+                        *ngIf="addTaskForm.controls['taskDescription'].invalid &&(addTaskForm.controls['taskDescription'].dirty || addTaskForm.controls['taskDescription'].touched || isFormValid)">
+                        <div *ngIf="addTaskForm.controls['taskDescription'].errors?.['required']" class="error">
+                            Task description is required.
+                        </div>
+                        <div *ngIf="addTaskForm.controls['taskDescription'].errors?.['maxlength']" class="error">
+                            Max limit 200 characters.
+                        </div>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button type="button" (click)="closeModal()">Cancel</button>
+                    <button type="submit">{{ isEditMode ? 'Update' : 'Add' }}</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

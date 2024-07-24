@@ -1,0 +1,274 @@
+.To-do-container {
+    display: flex;
+    height: 100vh;
+    font-family: lexend;
+}
+
+.sidenav {
+    width: 15%;
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigations {
+    width: 100%;
+}
+
+.logo h1 {
+    color: #BA5112;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidenav ul li {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidenav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.sidenav ul li button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    border: none;
+    font-size: large;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sidenav ul li button i {
+    color: #BA5112;
+    padding-left: 0.3rem;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.left-content {
+    flex: 1;
+}
+
+.right-content {
+    flex: 0;
+}
+
+.right-content button {
+    background-color: #BA5112;
+    color: white;
+    border: none;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+
+.right-content button i {
+    padding-left: 0.5rem;
+}
+
+
+.main-content {
+    width: 85%;
+    max-height: 95vh;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.main-content-mobile {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.active-link {
+    background-color: #EDB046;
+}
+
+.navigation-dropdown {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .sidenav {
+        font-size: small;
+    }
+
+    .sidenav ul li button {
+        font-size: small;
+    }    
+}
+
+@media (max-width:425px){
+
+    .sidenav{
+        width: 20%;
+    }
+
+    .main-content{
+        width: 80%;
+    }
+
+    .sidenav h1{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .sidenav ul li{
+        font-size: smaller;
+        padding:0.3rem;
+        margin-top: 0.4rem;
+    }
+
+    .sidenav ul li button {
+        font-size: smaller;
+        padding:0.4rem 0rem 0.4rem 0.25rem;
+        border-radius:3px ;
+    }
+
+    .sidenav ul li button i{
+        padding: 0.3rem;
+    }
+
+    .top-bar{
+        font-size: smaller;
+    }
+
+    .right-content button {
+        font-size: smaller;
+        padding: 8px 5px;
+    }  
+    
+    .main-content{
+        padding:0;
+    }
+}
+
+
+@media (max-width:375px) {
+
+    .To-do-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        font-family: lexend;
+    }
+
+    .sidenav,
+    .main-content {
+        display: none;
+    }
+
+    .main-content-mobile {
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .main-content-mobile h3 {
+        color: #BA5112;
+        margin: 0;
+        flex: 1;
+    }
+
+    .main-content-mobile .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 0 0.3rem 0 1rem;
+    }
+
+    .main-content-mobile .left-content {
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+
+    .main-content-mobile .right-content {
+        display: flex;
+        align-items: center;
+        flex: 0;
+    }
+
+    .main-content-mobile .right-content .sign-out {
+        background-color: #BA5112;
+        color: white;
+        border: none;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 4px;
+        white-space: nowrap;
+        padding: 0.6rem 0.7rem;
+        margin: 0 0.5rem;
+    }
+
+    .main-content-mobile .right-content button i {
+        padding-left: 0.3rem;
+    }
+
+    .main-content-mobile .add-task {
+        color: black;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px #0000001A;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 0.65rem;
+    }
+
+    .main-content-mobile .add-task i {
+        color: #BA5112;
+    }
+
+    .navigation-dropdown {
+        display: block;
+    }
+
+    .navigation-dropdown {
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .navigation-dropdown select {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: #EDB046;
+        border-radius: 10px;
+    }
+
+    .navigation-dropdown option {
+        background-color: white;
+    }
+
+}

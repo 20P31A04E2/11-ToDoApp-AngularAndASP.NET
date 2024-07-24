@@ -1,0 +1,133 @@
+.stats {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.completed-stat-item,
+.active-stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.completed-stat-item {
+    background-color: #BA5112;
+    color: white;
+}
+
+.completed-stat-item h2,
+.active-stat-item h2 {
+    margin-bottom: 0;
+}
+
+.completed-stat-item i,
+.active-stat-item i {
+    margin: 2px 0 0 5px;
+    font-size: 2rem;
+}
+
+.active-stat-item {
+    background-color: #EDB046;
+    color: white;
+}
+
+@media (max-width:768px){
+
+    
+    .completed-stat-item h2,
+    .active-stat-item h2 {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        font-size: small;
+    }
+
+    .completed-stat-item p,
+    .active-stat-item p {
+        margin: 0;
+        font-size: smaller;
+    }
+
+    .completed-stat-item i,
+    .active-stat-item i {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media (max-width:425px){
+
+    .stats{
+        padding-left: 0.5rem;
+    }
+    
+    .completed-stat-item h2,
+    .active-stat-item h2 {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        font-size: small;
+    }
+
+    .completed-stat-item p,
+    .active-stat-item p {
+        margin: 0;
+        font-size: x-small;
+    }
+
+    .completed-stat-item i,
+    .active-stat-item i {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media (max-width:375px) {
+
+    .stats {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 1rem 1rem 0.5rem 1rem;
+        gap: 0.5rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .completed-stat-item,
+    .active-stat-item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 10px;
+        box-sizing: border-box;
+        min-width: calc(50% - 1rem);
+    }
+
+
+    .completed-stat-item h2,
+    .active-stat-item h2 {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        font-size: medium;
+    }
+
+    .completed-stat-item p,
+    .active-stat-item p {
+        margin: 0;
+        font-size: smaller;
+    }
+
+    .completed-stat-item i,
+    .active-stat-item i {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}

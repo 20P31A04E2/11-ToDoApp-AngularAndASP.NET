@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/",
+    "/login",
+    "/sideNav",
+    "/sideNav/active",
+    "/sideNav/completed",
+    "/sideNav/dashboard"
+  ]
+}

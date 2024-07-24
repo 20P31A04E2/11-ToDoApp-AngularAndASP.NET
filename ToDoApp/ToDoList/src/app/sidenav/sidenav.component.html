@@ -1,0 +1,58 @@
+<div class="To-do-container">
+    <nav class="sidenav">
+      <div class="logo">
+        <h1>To-Do App</h1>
+      </div>
+      <div class="navigations">
+        <ul>
+          <li (click)="openAddTaskModal()">
+            <button>
+              Add Task <i class="fa-solid fa-circle-plus"></i>
+            </button>
+          </li>
+          <li routerLink="/sideNav/dashboard" routerLinkActive="active-link">Dashboard</li>
+          <li routerLink="/sideNav/active" routerLinkActive="active-link">Active</li>
+          <li routerLink="/sideNav/completed" routerLinkActive="active-link">Completed</li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div *ngIf="!isMobile" class="main-content">
+      <header class="top-bar">
+        <div class="left-content">
+          <span>{{routerName}}</span>
+        </div>
+        <div class="right-content">
+          <button (click)="SignOut()">
+            Sign out<i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </button>
+        </div>
+      </header>
+      <router-outlet></router-outlet>
+    </div>
+  
+    <div *ngIf="isMobile" class="main-content-mobile">
+      <header class="top-bar">
+        <div class="left-content">
+          <h3>To-Do App</h3>
+        </div>
+        <div class="right-content">
+          <button class="add-task" (click)="openAddTaskModal()">
+            Add Task <i class="fa-solid fa-circle-plus"></i>
+          </button>
+          <button class="sign-out" (click)="SignOut()">
+            Sign out<i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </button>
+        </div>
+      </header>
+      <div class="navigation-dropdown">
+        <select (change)="onSelect($event)">
+          <option value="/sideNav/dashboard">Dashboard</option>
+          <option value="/sideNav/active">Active</option>
+          <option value="/sideNav/completed">Completed</option>
+        </select>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <app-addtask [showModal]="isModalOpen" (showModalChange)="updateModalChange($event)"></app-addtask> 

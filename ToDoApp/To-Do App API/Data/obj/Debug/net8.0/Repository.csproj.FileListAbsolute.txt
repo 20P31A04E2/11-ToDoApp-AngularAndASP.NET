@@ -1,0 +1,97 @@
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\bin\Debug\net8.0\Repository.deps.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\bin\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\bin\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\bin\Debug\net8.0\Utility.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\bin\Debug\net8.0\Utility.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.csproj.Up2Date
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPI\Data\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\bin\Debug\net8.0\Repository.deps.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\bin\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\bin\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\bin\Debug\net8.0\Utility.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\bin\Debug\net8.0\Utility.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.csproj.Up2Date
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\webapisbackup\Data\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\bin\Debug\net8.0\Repository.deps.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\bin\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\bin\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\bin\Debug\net8.0\Utility.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\bin\Debug\net8.0\Utility.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.csproj.Up2Date
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIs\Data\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\bin\Debug\net8.0\Repository.deps.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\bin\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\bin\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\bin\Debug\net8.0\Utility.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\bin\Debug\net8.0\Utility.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.csproj.Up2Date
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\WebAPIAngular\Data\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\bin\Debug\net8.0\Repository.deps.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\bin\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\bin\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\sravanthi.k\OneDrive - Technovert\Tezo\To-Do App API\Data\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\bin\Debug\net8.0\Repository.deps.json
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\bin\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\bin\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.sourcelink.json
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.dll
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.pdb
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Data\obj\Debug\net8.0\ref\Repository.dll

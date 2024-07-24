@@ -1,0 +1,12 @@
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\bin\Release\net8.0\Concerns.deps.json
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\bin\Release\net8.0\Concerns.dll
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\bin\Release\net8.0\Concerns.pdb
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\Concerns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\Concerns.AssemblyInfoInputs.cache
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\Concerns.AssemblyInfo.cs
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\Concerns.csproj.CoreCompileInputs.cache
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\Concerns.sourcelink.json
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\Concerns.dll
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\refint\Concerns.dll
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\Concerns.pdb
+C:\Users\sravanthi.k\Documents\GitHub\full-web-app-Karri-LakshmiSravanthi\ToDoApp\To-Do App API\Models\obj\Release\net8.0\ref\Concerns.dll

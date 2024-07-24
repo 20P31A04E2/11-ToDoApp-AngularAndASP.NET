@@ -1,0 +1,35 @@
+<div class="signup-form-wrapper">
+    <div class="signup-container">
+        <form [formGroup]="signUpForm" *ngIf="signUpForm" (ngSubmit)="signUp()">
+            <h1>To-Do App</h1>
+            <p>Start organising your life day by day</p>
+            <div class="form-group">
+                <input type="text" id="username" name="username" placeholder="Username" formControlName="userName">
+            </div>
+            <div
+                *ngIf="signUpForm.controls['userName'].invalid && (signUpForm.controls['userName'].dirty || signUpForm.controls['userName'].touched || isFormValid)">
+                <div *ngIf="signUpForm.controls['userName'].errors?.['required']" class="error">
+                    Username is required.
+                </div>
+            </div>
+            <div class="form-group">
+                <input [type]="passwordVisible ? 'text' : 'password'" id="password" name="password"
+                    placeholder="Password" formControlName="password">
+                <span class="toggle-password" (click)="togglePasswordVisibility()">
+                    <i class="fa" [ngClass]="passwordVisible ? 'fa-eye-slash' : 'fa-eye'"></i>
+                </span>
+            </div>
+            <div
+                *ngIf="signUpForm.controls['password'].invalid && (signUpForm.controls['password'].dirty || signUpForm.controls['password'].touched || isFormValid)">
+                <div *ngIf="signUpForm.controls['password'].errors?.['required']" class="error">
+                    Password is required.
+                </div>
+                <div *ngIf="signUpForm.controls['password'].errors?.['pattern']" class="error">
+                    Password should have 8 characters (Letters, Numbers and Special characters)
+                </div>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p class="isSignedUp">Already have an account? Sign in <a [routerLink]="['/login']">here</a></p>
+        </form>
+    </div>
+</div>

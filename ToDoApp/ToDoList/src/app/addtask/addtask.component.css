@@ -1,0 +1,115 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    font-family: lexend;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(2px);
+    z-index: 900; 
+}
+
+.modal-content {
+    width: 40%;
+    transform: translate(65%, 60%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.form-group {
+    margin: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 12px 0 0;
+}
+
+.button-group button {
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-group button[type="submit"] {
+    background-color: #EDB046;
+    color: black;
+    margin-left: 10px;
+}
+
+.button-group button[type="button"] {
+    background-color: white;
+    color: black;
+    border: 1px solid #EDB046;
+}
+
+.error{
+    color:red;
+}
+
+@media (max-width:768px) {
+    .modal-content {
+        width: 67%;
+        transform: translate(18%, 50%);
+        padding:20px;   
+    }
+}
+
+@media (max-width:425px) {
+    .modal-content {
+        width: 67%;
+        transform: translate(15%, 45%);
+        padding:20px;   
+    }
+}
+
+@media (max-width:375px)
+{
+    .modal-content {
+        width: 67%;
+        transform: translate(13%, 50%);
+        padding:20px;   
+    }
+    
+    .button-group button{
+        font-size: small;
+    }
+
+    .form-group {
+        font-size: small;
+    }
+}
